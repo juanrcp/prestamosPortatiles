@@ -14,8 +14,7 @@ public class PortatilesDTO {
 	private String modelo;
 	
 
-	//PROPIEDADES
-		
+	//PROPIEDADES		
 	public String getNumero_identificador() {
 		return numero_identificador;
 	}
@@ -48,11 +47,11 @@ public class PortatilesDTO {
 		this.marca = marca;
 		this.modelo = modelo;
 	}
-	
 		
 	public PortatilesDTO() {
 		super();
 	}
+	
 
 	//ToString
 	@Override

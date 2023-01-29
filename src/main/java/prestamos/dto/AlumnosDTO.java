@@ -8,8 +8,7 @@ import prestamos.dal.Portatil;
 @Service
 public class AlumnosDTO {
 
-	//ATRIBUTOS
-	
+	//ATRIBUTOS	
 	private int id_alumno;
 		
 	private String nombre_alumno;
@@ -20,7 +19,6 @@ public class AlumnosDTO {
 		
 		
 	//PROPIEDADES
-
 	public Portatil getPortatil_asignado() {
 		return portatil_asignado;
 	}
@@ -69,13 +67,12 @@ public class AlumnosDTO {
 		this.nombre_alumno = nombre_alumno;
 		this.telefono_alumno = telefono_alumno;
 		this.portatil_asignado = portatil_asignado;
-}
-	
-	
+	}	
 
 	public AlumnosDTO() {
 		super();
 	}
+	
 
 	//ToString
 	@Override

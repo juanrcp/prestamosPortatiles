@@ -10,8 +10,7 @@ import javax.persistence.Table;
 @Table(name = "portatil", schema="dlk_prestamos")
 public class Portatil {
 	
-	//ATRIBUTOS
-	
+	//ATRIBUTOS	
 	@Id
 	@Column(name="numero_identificador")
 	private String numero_identificador;
@@ -26,8 +25,7 @@ public class Portatil {
 	private String md_uuid = "No Informado";
 
 
-	//PROPIEDADES
-	
+	//PROPIEDADES	
 	public String getMd_uuid() {
 		return md_uuid;
 	}

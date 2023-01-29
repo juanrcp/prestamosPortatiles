@@ -50,9 +50,7 @@ public class Menu {
 			} catch (Exception e) {
 				System.out.println("Entrada Invalida. Intentelo de nuevo: ");
 				return null;
-			}
-			
-			
+			}	
 			
 		}
 		

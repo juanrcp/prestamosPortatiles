@@ -28,7 +28,7 @@ public class Alumnos {
 	@Column(name = "telefono_alumno", unique = true, nullable = false)
 	private String telefono_alumno;
 	
-	//Establecemos relacion con la tabla portatiles y el borrado en cascada
+	//Establecemos relacion con la tabla portatiles y fijamos las alteraciones en cascada
 	@OneToOne(cascade = CascadeType.ALL)
 	Portatil portatil_asignado;
 	
@@ -37,7 +37,6 @@ public class Alumnos {
 
 	
 	//PROPIEDADES
-
 	public String getMd_uuid() {
 		return md_uuid;
 	}
